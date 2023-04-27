@@ -1,0 +1,34 @@
+.light-card{
+    display: flex;
+    background-color: #6C8C8A;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+    height: fit-content;
+    border: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.dark-card{
+    background-color: #305D5A;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+
+.description-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    font-family: "Inter Tight",sans-serif;
+    color: #D9D9D9;
+    text-align: center;
+    margin: 20px 10px 30px;
+
+}

@@ -1,0 +1,39 @@
+.footer{
+    font-family: 'Inter Tight',sans-serif;
+    color: #D9D9D9;
+    bottom: 0;
+
+
+}
+
+.text{
+    display: flex;
+    background-color: #305D5A;
+    justify-content: space-between;
+    size: 20px;
+    padding: 20px;
+}
+
+.info{
+    display: flex;
+    background-color: #51A09B;
+    justify-content: space-between;
+    size: 20px;
+    height: 90px;
+}
+
+.socials{
+    display: flex;
+    padding: 20px;
+    gap: 4px;
+}
+
+.data{
+    font-family: "Inter Tight",sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: #D9D9D9;
+    padding: 10px;
+}

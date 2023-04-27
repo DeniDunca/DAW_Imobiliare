@@ -1,0 +1,41 @@
+.rent-main{
+    display: flex;
+    background-color: #D9D9D9;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: fit-content;
+
+}
+
+.rent-text{
+    font-family: 'Inter',sans-serif;
+    font-size: 27px;
+    color: #305D5A;
+    margin-left: 30px;
+}
+
+.price{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    color: #D9D9D9;
+    padding: 7px;
+
+}
+
+.details{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-evenly;
+    padding: 4px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    margin-left: 30px;
+}
