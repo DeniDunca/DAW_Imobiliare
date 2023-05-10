@@ -1,0 +1,67 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.modal {
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+}
+.modal-title {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #305D5A;
+    text-align: center;
+}
+
+.modal-form {
+    justify-content: center;
+}
+
+.modal-label {
+    font-family:"Inter Tight", sans-serif;
+    color: #305D5A;
+    margin-right: 10px;
+}
+
+.modal-input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-footer button {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.modal-footer button:hover {
+    background-color: #005757;
+}
+
+.modal-alert {
+
+}

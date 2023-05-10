@@ -2,12 +2,17 @@ from flask import Blueprint, request,jsonify
 from flask_cors import CORS
 from repository.UserRepository import UserRepository
 from service.UserService import UserService
+from cryptography.fernet import Fernet
 
 users = Blueprint("users",__name__,url_prefix="/users")
 CORS(users)
 
 userRepository = UserRepository()
 userService = UserService(userRepository)
+
+# Generate a key to encrypt and decrypt the password
+key = b'MziBw-wkCYF4FVygFvd5FL7yREVCvqc99Z5ie8wZw20='
+fernet = Fernet(key)
 
 @users.get('get/<id>')
 def get_user(id):
@@ -27,7 +32,10 @@ def add_user():
     isAgent = request.json['isAgent']
     preference = request.json['preference']
   
-    if userService.add_user(name,email,password,isAgent, preference):
+    # Encrypt the password before storing it in the database
+    encrypted_password = fernet.encrypt(password.encode())
+
+    if userService.add_user(name,email,encrypted_password,isAgent, preference):
         return jsonify({
         'message':'User added successfully'
     }),201 #CREATED
@@ -44,7 +52,10 @@ def update_user():
     password = request.json['password']
     preference = request.json['preference']
 
-    userService.update_user(id,name,email,password, preference)
+    # Encrypt the password before updating the user
+    encrypted_password = fernet.encrypt(password.encode())
+
+    userService.update_user(id,name,email,encrypted_password, preference)
 
     return jsonify({
         'message':'User updated successfully'
@@ -63,17 +74,21 @@ def delete_user(id):
 def login():
     email = request.json.get('email','')
     password = request.json.get('password','')
-
-    user = userService.get_user_by_email_and_password(email, password)
+    
+    user = userService.get_user_by_email(email)
 
     if user:
-        return jsonify({
-                'userId':user.id,
-                'name':user.name,
-                'email':user.email,
-                'isAgent':user.isAgent,
-                'preference':user.preference
-            }), 201
+        #Decrypt the password before checking if it matches the entered password
+        decrypted_password = fernet.decrypt(user.password).decode()
+        if password == decrypted_password:
+            return jsonify({
+                    'userId':user.id,
+                    'name':user.name,
+                    'email':user.email,
+                    'isAgent':user.isAgent,
+                    'preference':user.preference
+                }), 201
+
     
     return jsonify({
         'error':'Wrong credentials'

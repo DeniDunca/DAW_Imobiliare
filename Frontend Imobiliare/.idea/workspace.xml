@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb559201-c06a-4582-8061-0ab28dea884d" name="Changes" comment="" />
+    <list default="true" id="bb559201-c06a-4582-8061-0ab28dea884d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/react-fe/src/components/modal/Modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-fe/src/components/modal/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/rent/RentCalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/rent/RentDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/rent/RentStatistics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/sale/SaleCalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/sale/SaleDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/sale/SaleStatistics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend Imobiliare/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend Imobiliare/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend Imobiliare/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend Imobiliare/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-fe/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-fe/src/pages/rent/DisplayElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/src/pages/rent/DisplayElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-fe/src/pages/rent/Rent.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/src/pages/rent/Rent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-fe/src/pages/sale/Sale.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/src/pages/sale/Sale.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="2NV7q4cAOiTFeQ6RHaoGspmmCzg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,7 +46,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-fe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -29,10 +62,22 @@
       <option name="presentableId" value="Default" />
       <updated>1679737587098</updated>
       <workItem from="1679737589894" duration="115000" />
+      <workItem from="1683474539680" duration="35243000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

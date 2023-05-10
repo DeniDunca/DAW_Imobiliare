@@ -26,7 +26,7 @@ class UserRepository:
                 "preference":user.preference
             })
         return data
-
+    
     def add_user(self, name, email, password, isAgent, preference):
         user = User(name=name, email=email, password=password, isAgent=isAgent, preference=preference)
         db.session.add(user)
@@ -34,11 +34,11 @@ class UserRepository:
         return True
     
 
-    def update_user(self,id,name,email,password, preference):
+    def update_user(self,id,name,email,encrypted_password, preference):
         user = User.query.get(id)
         user.name = name
         user.email = email
-        user.password = password
+        user.password = encrypted_password
         user.preference = preference
 
         db.session.add(user)
@@ -50,6 +50,6 @@ class UserRepository:
         db.session.delete(user)
         db.session.commit()
     
-    def get_user_by_email_and_password(self,email,password):
-        user = User.query.filter_by(email=email, password=password).first()
+    def get_user_by_email(self,email):
+        user = User.query.filter_by(email=email).first()
         return user

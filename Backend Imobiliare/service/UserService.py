@@ -12,12 +12,12 @@ class UserService:
     def add_user(self, name, email, password, isAgent, preference):
         return self.userRepository.add_user(name, email, password, isAgent, preference)
 
-    def update_user(self,id,name,email,password,preference):
-        self.userRepository.update_user(id,name,email,password,preference)
+    def update_user(self,id,name,email,encrypted_password,preference):
+        self.userRepository.update_user(id,name,email,encrypted_password,preference)
 
     def delete_user(self, id):
         self.userRepository.delete_user(id)
 
-    def get_user_by_email_and_password(self,email,password):
-        return self.userRepository.get_user_by_email_and_password(email,password)
+    def get_user_by_email(self,email):
+        return self.userRepository.get_user_by_email(email)
    

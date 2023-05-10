@@ -13,6 +13,12 @@ import {Login} from "./pages/login/Login";
 import {Signup} from "./pages/signup/Signup";
 import {AgentRents} from "./pages/agent/AgentRents";
 import {AgentSales} from "./pages/agent/AgentSales";
+import {RentDetails} from "./pages/rent/RentDetails";
+import {SaleDetails} from "./pages/sale/SaleDetails";
+import {RentCalendar} from "./pages/rent/RentCalendar";
+import {SaleCalendar} from "./pages/sale/SaleCalendar";
+import {RentStatistics} from "./pages/rent/RentStatistics";
+import {SaleStatistics} from "./pages/sale/SaleStatistics";
 
 function App() {
 
@@ -31,6 +37,12 @@ function App() {
                 <Route exact path="/agentSale" element={<AgentSales/>}/>
                 <Route exact path="/login" element={<Login/>}/>
                 <Route exact path="/signup" element={<Signup/>}/>
+                <Route exact path="/rentDetails/:id" element={<RentDetails/>}/>
+                <Route exact path="/saleDetails/:id" element={<SaleDetails/>}/>
+                <Route exact path="/rentCalendar/:id" element={<RentCalendar/>}/>
+                <Route exact path="/saleCalendar/:id" element={<SaleCalendar/>}/>
+                <Route exact path="/rentStatistics/:id" element={<RentStatistics/>}/>
+                <Route exact path="/rentStatistics/:id" element={<SaleStatistics/>}/>
             </Routes>
             <Footer/>
         </div>

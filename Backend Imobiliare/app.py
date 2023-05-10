@@ -4,6 +4,7 @@ from flask import Flask
 from users import users
 from rents import rents
 from sales import sales
+from appointments import appointments
 
 def create_app():
 
@@ -23,5 +24,6 @@ def create_app():
     app.register_blueprint(users)
     app.register_blueprint(rents)
     app.register_blueprint(sales)
+    app.register_blueprint(appointments)
     
     return app
