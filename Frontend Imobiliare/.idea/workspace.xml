@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb559201-c06a-4582-8061-0ab28dea884d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/react-fe/src/components/modal/Modal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-fe/src/components/modal/Modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/rent/RentCalendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/rent/RentDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/rent/RentStatistics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/sale/SaleCalendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/sale/SaleDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-fe/src/pages/sale/SaleStatistics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend Imobiliare/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend Imobiliare/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend Imobiliare/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend Imobiliare/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-fe/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-fe/src/pages/rent/DisplayElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/src/pages/rent/DisplayElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-fe/src/pages/rent/Rent.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/src/pages/rent/Rent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-fe/src/pages/sale/Sale.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/src/pages/sale/Sale.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-fe/src/pages/sale/SaleStatistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-fe/src/pages/sale/SaleStatistics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +48,7 @@
       <updated>1679737587098</updated>
       <workItem from="1679737589894" duration="115000" />
       <workItem from="1683474539680" duration="35243000" />
+      <workItem from="1683790452035" duration="1382000" />
     </task>
     <servers />
   </component>
@@ -79,5 +65,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

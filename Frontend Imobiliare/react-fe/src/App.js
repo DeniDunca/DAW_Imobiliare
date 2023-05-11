@@ -42,7 +42,7 @@ function App() {
                 <Route exact path="/rentCalendar/:id" element={<RentCalendar/>}/>
                 <Route exact path="/saleCalendar/:id" element={<SaleCalendar/>}/>
                 <Route exact path="/rentStatistics/:id" element={<RentStatistics/>}/>
-                <Route exact path="/rentStatistics/:id" element={<SaleStatistics/>}/>
+                <Route exact path="/saleStatistics/:id" element={<SaleStatistics/>}/>
             </Routes>
             <Footer/>
         </div>
